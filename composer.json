@@ -1,0 +1,25 @@
+{
+    "name": "keboola/ex-generic-qualtrics-preparser",
+    "description": "Pre-parse Qualtrics object responses",
+    "license": "MIT",
+	"keywords": ["qualtrics"],
+    "authors": [
+        {
+            "name": "Ondrej Vana",
+            "email": "kachna@keboola.cz"
+        }
+    ],
+    "require": {
+		"keboola/ex-generic-v2": "~0.2.0",
+        "php": ">=5.4.0"
+    },
+	"require-dev": {
+		"phpunit/phpunit": "3.7.*",
+		"codeclimate/php-test-reporter": "dev-master"
+	},
+	"autoload": {
+		"psr-0": {
+			"Keboola\\ExGenericModule": "src/"
+		}
+	}
+}
